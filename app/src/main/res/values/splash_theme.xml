@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.S60Launcher.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/transparent</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.S60Launcher</item>
+    </style>
+</resources>
