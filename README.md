@@ -1,5 +1,5 @@
 # S60Launcher
-An attempt to recreate the Symbian experience on Android as a launcher. I'll be honest, I don't know much about Android programming, so some of it was assisted by AI.
+An attempt to recreate the Symbian experience on Android as a launcher. I'll be honest, I don't know much about Android programming, so some of it was assisted by AI. Eventually I'd like to do a major rewrite to make it AI-free.
 
 Accidentally imported all files to the master branch instead of the main branch lmao
 
