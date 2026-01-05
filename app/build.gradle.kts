@@ -9,12 +9,17 @@ android {
 
     defaultConfig {
         applicationId = "com.notkia.launcher"
-        minSdk = 23
+        minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters += listOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+        }
+
     }
 
     buildTypes {
@@ -56,6 +61,7 @@ dependencies {
     implementation("androidx.compose.ui:ui-text-google-fonts:1.6.3")
     implementation("androidx.palette:palette-ktx:1.0.0")
     implementation(libs.androidx.runtime)
+    implementation(libs.car.ui.lib)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
