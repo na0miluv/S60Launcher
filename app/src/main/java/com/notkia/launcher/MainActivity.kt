@@ -120,6 +120,7 @@ import com.notkia.launcher.ui.theme.S60LauncherTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.rememberCoroutineScope
+import com.example.launcher.StatusBar
 import java.util.Calendar
 
 data class AppInfo(

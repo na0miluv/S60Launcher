@@ -38,6 +38,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.notkia.launcher.CustomAppInfoManager
+import com.notkia.launcher.ThemeManager
 import com.notkia.launcher.ui.theme.GlobalFontSize
 import com.notkia.launcher.ui.theme.robotoCondensed
 import com.notkia.launcher.ui.theme.StatusBarThemes
@@ -46,6 +48,7 @@ import kotlinx.coroutines.delay
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Locale
+import com.notkia.launcher.*
 
 @Composable
 fun N70Clock_RetroScaled(
