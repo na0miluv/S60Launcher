@@ -171,7 +171,8 @@ fun AppDrawer(
             modifier = Modifier.fillMaxSize(),
             contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp)
         ) {
-            itemsIndexed(items = apps, key = { _, app -> app.packageName }) { index, app ->
+            itemsIndexed(items = apps, key = { index, app -> "${app.packageName}_$index" }git diff
+            ) { index, app ->
                 AppDrawerItem(
                     index = index,
                     app = app,
@@ -198,7 +199,7 @@ fun AppDrawer(
             modifier = Modifier.fillMaxSize(),
             contentPadding = PaddingValues(horizontal = 2.dp, vertical = 4.dp)
         ) {
-            gridItemsIndexed(items = apps, key = { _, app -> app.packageName }) { index, app ->
+            gridItemsIndexed(items = apps, key = { index, app -> "${app.packageName}_$index" }) { index, app ->
                 AppDrawerItem(
                     index = index,
                     app = app,
